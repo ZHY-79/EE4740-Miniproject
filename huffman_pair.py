@@ -272,9 +272,9 @@ def calculate_symbol_distribution(signal_array, plot=True, title="Audio Symbol P
         plt.show()
     
     # Add entropy to result
-    distribution_result["entropy"] = entropy
+    # distribution_result["entropy"] = entropy
     
-    return distribution_result
+    # return distribution_result
 
 def calculate_pair_symbol_distribution(signal_array, plot=True, title="Pair Symbol Probability Distribution"):
     # Ensure 16-bit integer data type
